@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: aqua;
+    height: 50vh;
+    width: 700px;
+    display: grid;
+    grid-template-columns:100px 100px  100px 100px 100px 100px;
+    row-gap: 5px;
+    column-gap: 10px;
+    
+   
+}
+.cell
+{
+    background-color: yellow;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 139px;
+    width: 108px;
+}
+
+
+.cell:nth-of-type(5):hover{
+    content: url("https://cdn.pixabay.com/photo/2018/03/17/04/07/tunnel-3233082__340.jpg");
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
